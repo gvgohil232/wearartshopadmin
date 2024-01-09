@@ -1,0 +1,19 @@
+.infoTabs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* width: 48%; */
+  height: 80px;
+  background-color: #fff;
+  border-radius: 10px;
+  cursor: default;
+  margin: 5px;
+  padding: 5px 15px;
+}
+.infoTabs img {
+  -webkit-user-drag: none;
+}
+.categories {
+  text-align: right;
+  font-size: 14px;
+}

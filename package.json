@@ -1,0 +1,27 @@
+{
+  "name": "dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "start": "SET NODE_OPTIONS=--openssl-legacy-provider && next start",
+    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && next build",
+    "analyze": "cross-env NALYZE=true yarn build",
+    "export": "npm run build && next export -o _static"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@next/bundle-analyzer": "^13.0.6",
+    "bootstrap": "4.0.0",
+    "chart.js": "^3.3.2",
+    "cross-env": "^7.0.3",
+    "next": "10.2.3",
+    "next-images": "^1.7.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-scripts": "^5.0.1"
+  }
+}
