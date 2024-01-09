@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "start": "SET NODE_OPTIONS=--openssl-legacy-provider && next start",
-    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && next build",
+    "start": "next start",
+    "build": "next build",
     "analyze": "cross-env NALYZE=true yarn build",
     "export": "npm run build && next export -o _static"
   },
